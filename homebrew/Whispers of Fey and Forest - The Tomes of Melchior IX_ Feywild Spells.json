@@ -435,6 +435,32 @@
 			},
 			"entries": [
 				"A magical bowl of delicious-looking porridge appears at a point of your choice within range until the end of your next turn. Roll a {@dice d6}. A creature suffers the effect rolled when it consumes the porridge.",
+				{
+					"type": "table",
+					"name": "Porridge",
+					"colLabels": [
+						"Roll",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1-2",
+							"It takes 1d8 cold damage"
+						],
+						[
+							"3-4",
+							"It regains 1d8 hit points"
+						],
+						[
+							"5-6",
+							"It takes 1d8 cold damage"
+						]
+					]
+				},
 				"When a creature who can see or smell the porridge starts its turn within 20 feet of it, that creature must make a Wisdom saving throw. On a failed save, the creature must move as close as it can to the porridge, and if it moves within reach of the porridge, it must use its action to consume it. The creature will not move into an obviously dangerous hazard, such as a fire or pit, but will provoke attacks of opportunity. A creature immune to the {@condition charmed} condition automatically succeeds on this save."
 			],
 			"source": "melchiorix",
